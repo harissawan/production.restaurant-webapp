@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "cd food-ordering-ui && npm start",
     "backend": "cd food-ordering-backend && npm start",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "dev": "concurrently \"npm run frontend\" \"npm start\""
     
   },
   "author": "",
